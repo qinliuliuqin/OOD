@@ -1,0 +1,27 @@
+{
+    "budget": 70,
+    "num_parallel_episodes": 5,
+    "num_episodes": 10,
+    "baseline": "random",
+    "evaluator_path": "/miccai2020_evaluator_raw_normal.pth",
+    "baseline_device": "cuda:0",
+    "bc_checkpoint_path": null,
+    "ppo_checkpoint_path": null,
+    "dqn_checkpoint_path": "/playpen-raid2/qinliu/models/MR_Recon/miccai2020_random_ssim_abcd_normal.pth",
+    "legacy_model": true,
+    "epsilon": 0.1,
+    "oracle_num_samples": 20,
+    "output_dir": "/playpen-raid2/qinliu/results/model_0406_2022_normal/random_id",
+    "seed": 0,
+    "env": "miccai_oai",
+    "ood_type": null,
+    "split": "test"
+}
+
+ scores: 
+
+mse: 0.00013517159350158182
+nmse: 0.0015711855283007026
+ssim: 0.9623780930042267
+psnr: 22.13613838195801
+cnr: 0.05206944402307272
